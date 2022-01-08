@@ -4,18 +4,16 @@ import Posts from "../posts/Posts";
 import Box from '@mui/material/Box';
 import Typography from "@mui/material/Typography";
 
-
-const backgroundImage = 'https://images.unsplash.com/photo-1641221638258-b771d81b6392?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80'
+const backgroundImage = 'https://images.unsplash.com/photo-1635349887474-77b2f0f4d8f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2386&q=80'
 
 function Landing() {
-
     return (
         <>
             <Nav />
             <Box
                 sx={{
                     mt: "5px",
-                    height: '80vh',
+                    height: '90vh',
                     maxHeight: "1150px",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",

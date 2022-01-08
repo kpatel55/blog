@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "image": "https://images.unsplash.com/photo-1559424452-eeb3a13ffe2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
+        "title": "Disco",
+        "description": "Disco is a genre of dance music and a subculture that emerged in the 1970s from the United States' urban nightlife scene."
+    },
+    {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1614139009864-fca811ed0a16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80",
+        "title": "Bali",
+        "description": "Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands."
+    },
+    {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1587245884519-3be9c15f3ed1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2120&q=80",
+        "title": "Space Needle",
+        "description": "Iconic, 605-ft.-tall spire at the Seattle Center, with an observation deck & a rotating restaurant."
+    },
+    {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1628890444435-9e68e905773b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1359&q=80",
+        "title": "Strawberry Cake",
+        "description": "Strawberry cake is a cake that uses strawberry as a primary ingredient. Strawberries may be used in the cake batter, atop cakes and in a strawberry cake's frosting and are typically served cold."
+    }
+]
