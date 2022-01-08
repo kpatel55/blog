@@ -1,8 +1,9 @@
-import Nav from "./components/navbar/Nav";
+import Landing from "./components/landingpage/Landing";
+
 
 function App() {
   return (
-    <Nav />
+      <Landing />
   );
 }
 

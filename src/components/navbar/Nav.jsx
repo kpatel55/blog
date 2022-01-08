@@ -78,7 +78,7 @@ function Nav() {
     }
 
     return (
-        <AppBar position="static" sx={{backgroundColor: "#3c4043"}}>
+        <AppBar position="fixed">
             <Container maxWidth="l">
                 <Toolbar disableGutters>
                     <IconButton
@@ -140,7 +140,7 @@ function Nav() {
                             <Button
                                 key={screen}
                                 onClick={handleNavClose}
-                                sx={{ my: 2, color: "white", display: "block" }}
+                                sx={{ my: 2, color: "#fff", display: "block" }}
                             >
                                 {screen}
                             </Button>
@@ -149,7 +149,7 @@ function Nav() {
                     <Box sx={{ flexGrow: 0, display: {xs: "none", md: "flex"}, pr: "24px" }}>
                         <Search>
                             <SearchIconWrapper>
-                                <Icon sx={{color: "white"}}>search</Icon>
+                                <Icon>search</Icon>
                             </SearchIconWrapper>
                             <StyledInputBase
                                 placeholder="Search…"
@@ -159,7 +159,7 @@ function Nav() {
                     </Box>
                     <Box sx={{ flexGrow: 0, display: {xs: "flex", md: "none"} }}>
                         <IconButton size="large" aria-label="search" color="inherit">
-                            <Icon sx={{color: "white"}}>search</Icon>
+                            <Icon>search</Icon>
                         </IconButton>
                     </Box>
                     <Box sx={{ flexGrow: 0 }}>
