@@ -15,22 +15,23 @@ function Posts() {
             sx={{
                 display: "flex",
                 flexFlow: "row wrap",
+                alignItems: "center",
                 justifyContent: "space-around",
                 bgcolor: "#fff5f8",
-                height: "400px",
+                height: "auto",
                 pt: "64px",
                 pb: "200px"
             }}
         >
             {_.map(postCards, post =>
                 <Card key={post.id} sx={{ maxWidth: 345, mb: "24px" }}>
-                    <CardActionArea>
+                    <CardActionArea sx={{ height: "312px" }}>
                         <CardMedia
                             component="img"
-                            height="180"
                             image={post.image}
+                            sx={{ maxHeight: "190px" }}
                         />
-                        <CardContent>
+                        <CardContent sx={{ pb: "32px" }}>
                             <Typography gutterBottom variant="h5" component="div">
                                 {post.title}
                             </Typography>

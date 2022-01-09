@@ -1,9 +1,21 @@
-import Landing from "./components/landingpage/Landing";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
+import Landing from "./components/landingpage/Landing";
 
 function App() {
   return (
-      <Landing />
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Landing />} />
+        </Routes>
+      </div>
+    </Router>
+
   );
 }
 
